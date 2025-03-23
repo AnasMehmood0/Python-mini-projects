@@ -104,7 +104,7 @@ project = st.sidebar.radio(
     "Choose a project", 
     [
         "Mad Libs", 
-        "Guess the Number (Computer)", 
+        "Guess the Number ", 
         "Password Generator", 
         "Countdown Timer", 
         "QR Code Generator", 
@@ -137,7 +137,7 @@ if project == "Mad Libs":
             st.error("Please fill in all the fields!")
 
 # Guess the Number Game 
-elif project == "Guess the Number":
+elif project == "Guess the Number ":
     st.title("Guess the Number Game 🔢")
     st.write("Guess a number between 1 and 100!")
     
