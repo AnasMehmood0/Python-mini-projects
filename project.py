@@ -137,7 +137,7 @@ if project == "Mad Libs":
             st.error("Please fill in all the fields!")
 
 # Guess the Number Game 
-elif project == "Guess the Number ":
+elif project == "Guess the Number":
     st.title("Guess the Number Game 🔢")
     st.write("Guess a number between 1 and 100!")
     
@@ -159,7 +159,7 @@ elif project == "Guess the Number ":
             # Reset the game
             del st.session_state.number
             del st.session_state.attempts
-
+            
 # Password Generator
 elif project == "Password Generator":
     st.title("Password Generator 🔐")
