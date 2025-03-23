@@ -97,7 +97,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-""", unsafe_allow_html=True)
 
 # Add a sidebar for navigation
 st.sidebar.title("Navigation")
