@@ -13,7 +13,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# Add custom CSS for a bright and bold theme
 st.markdown("""
 <style>
     /* Set a gradient background for the entire app */
@@ -83,6 +82,7 @@ st.markdown("""
         padding: 10px;
         font-size: 1rem;
         font-weight: bold;
+        color: black; /* Ensure text is visible */
     }
 
     /* Add animations for a polished look */
@@ -96,6 +96,7 @@ st.markdown("""
         to { transform: translateY(0); opacity: 1; }
     }
 </style>
+""", unsafe_allow_html=True)
 """, unsafe_allow_html=True)
 
 # Add a sidebar for navigation
