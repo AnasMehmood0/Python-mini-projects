@@ -136,8 +136,8 @@ if project == "Mad Libs":
         else:
             st.error("Please fill in all the fields!")
 
-# Guess the Number Game (Computer)
-elif project == "Guess the Number (Computer)":
+# Guess the Number Game 
+elif project == "Guess the Number":
     st.title("Guess the Number Game 🔢")
     st.write("Guess a number between 1 and 100!")
     
