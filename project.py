@@ -104,7 +104,7 @@ project = st.sidebar.radio(
     "Choose a project", 
     [
         "Mad Libs", 
-        "Guess the Number ", 
+        "Guess the Number",  # Removed the trailing space
         "Password Generator", 
         "Countdown Timer", 
         "QR Code Generator", 
@@ -159,7 +159,7 @@ elif project == "Guess the Number":
             # Reset the game
             del st.session_state.number
             del st.session_state.attempts
-            
+
 # Password Generator
 elif project == "Password Generator":
     st.title("Password Generator 🔐")
